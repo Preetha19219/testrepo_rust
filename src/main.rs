@@ -1,8 +1,5 @@
 fn main() {
-    let mut vec = vec![1, 19, 5, 10, 2, 15];
-    
-    vec.sort();
-    vec.reverse();
-    
-    println!("{:?}", vec)
+    let x = vec!["Hello", "World"];
+    let y: Vec<_> = x.iter().rev().collect();
+    println!("{:?}", y);
 }
